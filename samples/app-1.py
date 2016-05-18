@@ -1,7 +1,7 @@
 from restunl.unetlab import UnlServer
 from restunl.device import Router
 
-LAB_NAME = 'test_1'
+LAB_NAME = 'Ans_test_1'
 
 def app_1():
     unl = UnlServer('172.16.207.20')

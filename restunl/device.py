@@ -11,13 +11,13 @@ class Device(object):
 
 class Router(Device):
     defaults = {
-        'template': 'vios',
+        'template': 'iol',
         'count': 1,
-        'image': 'vios-adventerprisek9-m.virl.154-2.T1',
-        'ram': '512',
+        'image': 'i86bi-linux-l3-adventerprisek9-15.4.1T.bin',
+        'ram': '256',
         'ethernet': '4',
         'serial': '0',
-        'type': 'vios',
+        'type': 'iol',
         'config': 'unconfigured'
     }
 
